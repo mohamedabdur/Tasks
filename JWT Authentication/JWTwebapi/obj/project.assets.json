@@ -750,11 +750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mohamed.abdur\\Desktop\\JWT Authentication\\JWTwebapi\\webapime.csproj",
+      "projectUniqueName": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\JWT Authentication\\JWTwebapi\\webapime.csproj",
       "projectName": "webapime",
-      "projectPath": "c:\\Users\\mohamed.abdur\\Desktop\\JWT Authentication\\JWTwebapi\\webapime.csproj",
+      "projectPath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\JWT Authentication\\JWTwebapi\\webapime.csproj",
       "packagesPath": "C:\\Users\\mohamed.abdur\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mohamed.abdur\\Desktop\\JWT Authentication\\JWTwebapi\\obj\\",
+      "outputPath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\JWT Authentication\\JWTwebapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohamed.abdur\\AppData\\Roaming\\NuGet\\NuGet.Config"

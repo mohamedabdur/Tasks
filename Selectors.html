@@ -7,13 +7,14 @@
         }
     </style>
 </head>
-<p>This is a p element.</p>
+<p>This is a paragraph element.</p>
 <div class="example">
-    paragraph
+    Welcome
 </div>
 <div class="example">
     sentence
 </div>
+<br><br>
 <a href="http://www.google.com" target="_top">Google</a>
 
 <p id="para">This is done by getElementById</p>
@@ -25,9 +26,13 @@
 <script>
     var paragraph = document.querySelector("p");
     paragraph.style.background= "red";
-    var para2 = document.querySelector(".example").
-    para2.style.backgroundColor = "red";
-    document.querySelector("a[target]").style.border = "10px solid red";
+    var para2 = document.querySelector(".example");
+    para2.style.backgroundColor = "blue";
+    document.querySelector("a[target]").style.border = "5px solid red";
+    
+    var byClassName = document.getElementsByClassName("example");
+    console.log(byClassName[0].textContent="Hi");
+
     function changeColor(newColor) {
     const elem = document.getElementById("para");
     elem.style.color = newColor;
