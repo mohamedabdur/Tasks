@@ -1,0 +1,12 @@
+.form{
+    background-color: rgb(174, 219, 96);
+}
+.form-group{
+    margin: 2rem;
+}
+input, select{
+    width: 25%;
+}
+.submitButton{
+margin:auto;
+}
