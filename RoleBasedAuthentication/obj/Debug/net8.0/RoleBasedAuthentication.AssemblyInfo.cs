@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoleBasedAuthentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3de282264965559b52225719cb3966b19b7fd328")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a99aa893b7aef8fa85391213e5becc93e022a4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoleBasedAuthentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoleBasedAuthentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
