@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohamed.abdur\\Desktop\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj": {}
+    "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohamed.abdur\\Desktop\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj": {
+    "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohamed.abdur\\Desktop\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj",
+        "projectUniqueName": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj",
         "projectName": "RoleBasedAuthentication",
-        "projectPath": "C:\\Users\\mohamed.abdur\\Desktop\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj",
+        "projectPath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\RoleBasedAuthentication\\RoleBasedAuthentication.csproj",
         "packagesPath": "C:\\Users\\mohamed.abdur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohamed.abdur\\Desktop\\RoleBasedAuthentication\\obj\\",
+        "outputPath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\RoleBasedAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohamed.abdur\\AppData\\Roaming\\NuGet\\NuGet.Config"

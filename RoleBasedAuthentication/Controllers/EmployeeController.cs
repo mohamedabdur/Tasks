@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace RoleBasedAuthentication.Controllers;
 
 [Authorize(Roles ="User")]
-public class EmployeeController : Controller
+public class UserController : Controller
 {
      public IActionResult Index()
 

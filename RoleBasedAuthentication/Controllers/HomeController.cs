@@ -52,7 +52,7 @@ public class HomeController : Controller
                 HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
                 return RedirectToAction("Index",$"{role}");
             }
-            ViewBag.message="Invalid credentials";
+            ViewBag.message="Provide a valid details";
             return View();
         }
         return View();
