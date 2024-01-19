@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJAX</title>
-</head>
+<html>
 <body>
-    <p id="result">Welcome</p>
-    <button onclick="fetchData()">Fetch Text Data</button> 
-</body>
+ 
+<div id="AJAX">
+<h1> XMLHttpRequest </h1>
+<button type="button" onclick="showData()">Show</button>
+</div>
+ 
 <script>
-    function fetchData()
-{
-    const xhttp = new XMLHttpRequest()
-
-    xhttp.onload = function()
+function showData() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200)
+    // status code = 4 => requset is complete , 200 => html request status 
     {
-        document.getElementById('result').innerHTML = this.responseText
+      document.getElementById("AJAX").innerHTML =
+      this.responseText;
     }
-
-    xhttp.open('GET','SampletextAJAX.txt',true)
-
-    xhttp.send()
+  };
+  xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
+  xhttp.send();
 }
 </script>
+ 
+</body>
 </html>
