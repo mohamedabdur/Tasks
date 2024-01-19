@@ -13,6 +13,9 @@ import { FlightBookingComponent } from '../flight-booking/flight-booking.compone
 export class BookingComponent {
 show:boolean=true;
 
+showMessage(){
+  this.show = false;
+}
 
 }
 

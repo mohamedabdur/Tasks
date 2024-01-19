@@ -8,12 +8,12 @@
     <div>
     @defer(when show)
     {
-        <router-outlet></router-outlet>
+        <app-flight-booking></app-flight-booking>
     }
-    @placeholder{
-        <p>The Form will be displayed Soon</p>
+    @placeholder( minimum 500ms){
+        <p>The Message will be displayed Soon</p>
     }
-    @loading (after 1s; minimum 10s)
+    @loading(after 1s; minimum 10s)
     {
         <p>Loading</p>
     }
@@ -21,6 +21,7 @@
     {
         <p>Please try after sometimes</p>
     }
+    <router-outlet></router-outlet>
     </div>
     <div class="right-content">
         <h3>Where?</h3>
