@@ -6,14 +6,15 @@
             <button [routerLink]="['hotelbooking']">Hotel Booking</button>
     </div>
     <div>
-    @defer(when show)
+    <!-- <button (click)="showMessage()">Click here</button> -->
+    @defer()
     {
         <app-flight-booking></app-flight-booking>
     }
     @placeholder( minimum 500ms){
         <p>The Message will be displayed Soon</p>
     }
-    @loading(after 1s; minimum 10s)
+    @loading(after 500ms; minimum 10s)
     {
         <p>Loading</p>
     }

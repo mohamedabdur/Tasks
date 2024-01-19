@@ -3,14 +3,14 @@
 <body>
  
 <div id="AJAX">
-<h1> XMLHttpRequest </h1>
+<h1> AJAX Example </h1>
 <button type="button" onclick="showData()">Show</button>
 </div>
  
 <script>
 function showData() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  var data = new XMLHttpRequest();
+  data.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200)
     // status code = 4 => requset is complete , 200 => html request status 
     {
@@ -18,8 +18,8 @@ function showData() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
-  xhttp.send();
+  data.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
+  data.send();
 }
 </script>
  
