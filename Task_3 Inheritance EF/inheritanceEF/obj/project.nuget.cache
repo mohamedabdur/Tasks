@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nXWdIQHPisHG8iEHN+BPztuXJo64icRu6IqT9ch45V5utJMiuB2AagUADWEx3PSWnpX9J4QTMAlXN2e9Atx1hQ==",
+  "dgSpecHash": "BWCnbMMkJJJ7x2RBOCrC+kYh9IXPLG62Q7KgMOBxodFIRmCtFHWaH+i9Haq1SCmeHMv/z/sOSoiJLfKJXFEdIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mohamed.abdur\\Desktop\\inheritanceEF\\inheritanceEF.csproj",
+  "projectFilePath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\Task_3 Inheritance EF\\inheritanceEF\\inheritanceEF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohamed.abdur\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mohamed.abdur\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

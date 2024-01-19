@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohamed.abdur\\Desktop\\inheritanceEF\\inheritanceEF.csproj": {}
+    "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\Task_3 Inheritance EF\\inheritanceEF\\inheritanceEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohamed.abdur\\Desktop\\inheritanceEF\\inheritanceEF.csproj": {
+    "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\Task_3 Inheritance EF\\inheritanceEF\\inheritanceEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohamed.abdur\\Desktop\\inheritanceEF\\inheritanceEF.csproj",
+        "projectUniqueName": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\Task_3 Inheritance EF\\inheritanceEF\\inheritanceEF.csproj",
         "projectName": "inheritanceEF",
-        "projectPath": "C:\\Users\\mohamed.abdur\\Desktop\\inheritanceEF\\inheritanceEF.csproj",
+        "projectPath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\Task_3 Inheritance EF\\inheritanceEF\\inheritanceEF.csproj",
         "packagesPath": "C:\\Users\\mohamed.abdur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohamed.abdur\\Desktop\\inheritanceEF\\obj\\",
+        "outputPath": "C:\\Users\\mohamed.abdur\\Desktop\\Tasks\\Task_3 Inheritance EF\\inheritanceEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohamed.abdur\\AppData\\Roaming\\NuGet\\NuGet.Config"

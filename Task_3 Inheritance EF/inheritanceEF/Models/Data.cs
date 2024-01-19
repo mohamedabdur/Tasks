@@ -15,7 +15,7 @@ namespace inheritanceEF.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Vehicle>().UseTpcMappingStrategy();
+            modelBuilder.Entity<Vehicle>().UseTptMappingStrategy();
 
             base.OnModelCreating(modelBuilder);
         }
